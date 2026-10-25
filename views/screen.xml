@@ -5,6 +5,16 @@
        detailed, grid, menu). Goc tren trai = gio, goc tren phai = % pin +
        icon pin + icon mang. Theo mau batteryIndicator cua theme knulli. -->
   <view name="screen">
+    <!-- Tat chi bao pin mac dinh cua ES: neu khong tat, ES ve them 1 bo
+         icon pin + % pin nua chong len cum pin tu ve o goc phai (loi
+         thay o v0.1.1). Mau nay hoc theo theme knulli. -->
+    <batteryIndicator name="batteryIndicator" visible="false" />
+    <!-- Park dong ho mac dinh (dang text) ra ngoai man hinh: ES con ve
+         them 1 dong ho o goc duoi phai neu theme khong dinh nghia phan tu
+         text clock; wiki cho phep pos ngoai [0,1] de day ra ngoai. -->
+    <text name="clock">
+      <pos>2 2</pos>
+    </text>
     <!-- Gio hien tai -->
     <clock name="system-clock">
       <origin>0 0.5</origin>
