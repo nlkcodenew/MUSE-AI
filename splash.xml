@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./theme.xml</include>
+  <view name="splash">
+    <image name="background">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./art/background.png</path>
+      <linearSmooth>true</linearSmooth>
+    </image>
+    <image name="progressbar">
+      <origin>0.5 1</origin>
+      <pos>0.5 0.78</pos>
+      <size>0.5 0.035</size>
+      <path>./art/progressbar.png</path>
+      <color>00000066</color>
+      <linearSmooth>true</linearSmooth>
+    </image>
+    <image name="progressbar:active">
+      <origin>0.5 1</origin>
+      <pos>0.5 0.78</pos>
+      <size>0.5 0.035</size>
+      <tile>true</tile>
+      <path>./art/progressbar.png</path>
+      <color>FFB454</color>
+      <colorEnd>E08A2E</colorEnd>
+      <gradientType>horizontal</gradientType>
+      <linearSmooth>true</linearSmooth>
+    </image>
+    <text name="label">
+      <origin>0.5 0</origin>
+      <pos>0.5 0.82</pos>
+      <size>0.9 0.05</size>
+      <alignment>center</alignment>
+      <fontPath>./fonts/inter-Bold.ttf</fontPath>
+      <fontSize>0.028</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <color>F5F0E6</color>
+    </text>
+  </view>
+</theme>

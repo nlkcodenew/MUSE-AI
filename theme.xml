@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MUSE-AI v0.1.0 — theme cho Knulli/Batocera, thiet ke boi Muse -->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  <!-- Bang mau: muc 0B1020, panel 101828, chu giay F5F0E6, nhan ho phach
+       FFB454/E08A2E, teal 5CC8B4. Font: Tektur (tieu de) + Inter (noi dung),
+       ca hai du tieng Viet. Gia tri ghi truc tiep trong tung view. -->
+  <include>./views/system.xml</include>
+  <include>./views/basic.xml</include>
+  <include>./views/detailed.xml</include>
+  <include>./views/grid.xml</include>
+  <include>./views/menu.xml</include>
+  <include>./views/help.xml</include>
+</theme>

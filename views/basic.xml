@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="basic">
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./../art/background.png</path>
+      <zIndex>1</zIndex>
+    </image>
+    <!-- Watermark ten he may mo -->
+    <text name="logoText">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.50</pos>
+      <size>1 1</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.16</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <alignment>center</alignment>
+      <color>F5F0E614</color>
+      <zIndex>2</zIndex>
+    </text>
+    <!-- Panel danh sach -->
+    <image name="frame" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.50</pos>
+      <size>0.95 0.85</size>
+      <path>./../art/white.png</path>
+      <color>101828B3</color>
+      <zIndex>3</zIndex>
+    </image>
+    <image name="frameBorders" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.50</pos>
+      <size>0.952 0.852</size>
+      <path>./../art/white.png</path>
+      <color>FFB45433</color>
+      <zIndex>2</zIndex>
+    </image>
+    <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0.05 0.09</pos>
+      <size>0.90 0.82</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.034</fontSize>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <selectedColor>1A1206</selectedColor>
+      <primaryColor>F5F0E6</primaryColor>
+      <secondaryColor>B8C0D0</secondaryColor>
+      <selectorColor>FFB454</selectorColor>
+      <selectorColorEnd>E08A2E</selectorColorEnd>
+      <scrollSound>./../sounds/scroll.wav</scrollSound>
+      <scrollbarColor>FFB454</scrollbarColor>
+      <scrollbarSize>0.006</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+      <zIndex>10</zIndex>
+    </textlist>
+  </view>
+</theme>

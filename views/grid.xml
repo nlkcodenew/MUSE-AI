@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="grid">
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./../art/background.png</path>
+      <zIndex>1</zIndex>
+    </image>
+    <!-- Watermark ten he may mo -->
+    <text name="logoText">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.50</pos>
+      <size>1 1</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.20</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <alignment>center</alignment>
+      <color>F5F0E612</color>
+      <zIndex>2</zIndex>
+    </text>
+    <!-- Panel luoi -->
+    <image name="frame" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.52</pos>
+      <size>0.95 0.84</size>
+      <path>./../art/white.png</path>
+      <color>101828B3</color>
+      <zIndex>3</zIndex>
+    </image>
+    <image name="frameBorders" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.52</pos>
+      <size>0.952 0.842</size>
+      <path>./../art/white.png</path>
+      <color>FFB45433</color>
+      <zIndex>2</zIndex>
+    </image>
+    <!-- Ten game dang chon -->
+    <text name="md_name">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.045</pos>
+      <size>0.80 0.05</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.034</fontSize>
+      <alignment>center</alignment>
+      <singleLineScroll>true</singleLineScroll>
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollDelay>0</autoScrollDelay>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </text>
+    <imagegrid name="gamegrid">
+      <origin>0 0</origin>
+      <pos>0.05 0.10</pos>
+      <size>0.90 0.80</size>
+      <margin>0.015 0.015</margin>
+      <padding>0.01 0.01 0.01 0.01</padding>
+      <animateSelection>true</animateSelection>
+      <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
+      <imageSource>thumbnail</imageSource>
+      <scrollSound>./../sounds/scroll.wav</scrollSound>
+      <scrollbarColor>FFB454</scrollbarColor>
+      <scrollbarSize>0.006</scrollbarSize>
+      <scrollbarAlignment>right</scrollbarAlignment>
+      <zIndex>10</zIndex>
+    </imagegrid>
+  </view>
+</theme>

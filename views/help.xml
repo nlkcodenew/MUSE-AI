@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="menu,system,basic,detailed,grid">
+    <helpsystem name="help">
+      <textColor>F5F0E6</textColor>
+      <origin>0 0.5</origin>
+      <pos>0 0.975</pos>
+      <fontSize>0.028</fontSize>
+      <iconColor>FFB454</iconColor>
+      <iconUpDown>./../art/help/updown.png</iconUpDown>
+      <iconLeftRight>./../art/help/leftright.png</iconLeftRight>
+      <iconUpDownLeftRight>./../art/help/all.png</iconUpDownLeftRight>
+      <iconA>./../art/help/a.png</iconA>
+      <iconB>./../art/help/b.png</iconB>
+      <iconX>./../art/help/x.png</iconX>
+      <iconY>./../art/help/y.png</iconY>
+      <iconL>./../art/help/l.png</iconL>
+      <iconR>./../art/help/r.png</iconR>
+      <iconStart>./../art/help/start.png</iconStart>
+      <iconSelect>./../art/help/select.png</iconSelect>
+    </helpsystem>
+  </view>
+</theme>

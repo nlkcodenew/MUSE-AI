@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <!-- Nen aurora muc -->
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./../art/background.png</path>
+      <zIndex>1</zIndex>
+    </image>
+    <!-- Ten he may KHONG LO: chu Tektur, phat sang ho phach, phan chieu 3D -->
+    <text name="logoText">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.40</pos>
+      <size>0.94 0.34</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.125</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <alignment>center</alignment>
+      <singleLineScroll>true</singleLineScroll>
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollDelay>0</autoScrollDelay>
+      <color>F5F0E6</color>
+      <glowColor>FFB45480</glowColor>
+      <glowSize>4</glowSize>
+      <reflexion>0.05 0</reflexion>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- Vach nhan ho phach duoi ten -->
+    <image name="accentLine" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.60</pos>
+      <size>0.30 0.004</size>
+      <path>./../art/white.png</path>
+      <color>FFB454</color>
+      <zIndex>11</zIndex>
+    </image>
+    <!-- Thong tin he may: so game, mo ta he (ES tu dien) -->
+    <text name="systemInfo">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.65</pos>
+      <size>0.90 0.05</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.028</fontSize>
+      <alignment>center</alignment>
+      <color>B8C0D0</color>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- Tia sang trang tri -->
+    <image name="sparkLeft" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.07 0.40</pos>
+      <size>0.035 0.05</size>
+      <path>./../art/spark.png</path>
+      <opacity>0.9</opacity>
+      <zIndex>9</zIndex>
+    </image>
+    <image name="sparkRight" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.93 0.40</pos>
+      <size>0.035 0.05</size>
+      <path>./../art/spark.png</path>
+      <opacity>0.9</opacity>
+      <zIndex>9</zIndex>
+    </image>
+  </view>
+</theme>

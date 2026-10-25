@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.034</fontSize>
+      <color>F5F0E6</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.018</fontSize>
+      <color>B8C0D0</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.036</fontSize>
+      <color>F5F0E6</color>
+      <separatorColor>00000000</separatorColor>
+      <selectorColor>FFB454</selectorColor>
+      <selectorColorEnd>E08A2E</selectorColorEnd>
+      <selectorGradientType>horizontal</selectorGradientType>
+      <selectedColor>1A1206</selectedColor>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.026</fontSize>
+      <color>B8C0D0</color>
+    </menuTextSmall>
+    <menuGroup name="menugroup">
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.034</fontSize>
+      <color>FFB454</color>
+      <separatorColor>00000000</separatorColor>
+      <backgroundColor>00000033</backgroundColor>
+      <lineSpacing>1.75</lineSpacing>
+    </menuGroup>
+    <menuBackground name="menubg">
+      <color>0B1020E6</color>
+      <roundCorners>0.018</roundCorners>
+      <scrollbarColor>FFB454</scrollbarColor>
+      <scrollbarSize>0.006</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+    </menuBackground>
+  </view>
+</theme>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="detailed">
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./../art/background.png</path>
+      <zIndex>1</zIndex>
+    </image>
+    <!-- Watermark ten he may mo -->
+    <text name="logoText">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.50</pos>
+      <size>1 1</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.20</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <alignment>center</alignment>
+      <color>F5F0E612</color>
+      <zIndex>2</zIndex>
+    </text>
+    <!-- Panel trai: danh sach game -->
+    <image name="frameLeft" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.50</pos>
+      <size>0.45 0.85</size>
+      <path>./../art/white.png</path>
+      <color>101828B3</color>
+      <zIndex>3</zIndex>
+    </image>
+    <image name="frameLeftBorders" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.50</pos>
+      <size>0.452 0.852</size>
+      <path>./../art/white.png</path>
+      <color>FFB45433</color>
+      <zIndex>2</zIndex>
+    </image>
+    <!-- Panel phai: video + thong tin -->
+    <image name="frameRight" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.50</pos>
+      <size>0.475 0.85</size>
+      <path>./../art/white.png</path>
+      <color>101828B3</color>
+      <zIndex>3</zIndex>
+    </image>
+    <image name="frameRightBorders" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.50</pos>
+      <size>0.477 0.852</size>
+      <path>./../art/white.png</path>
+      <color>FFB45433</color>
+      <zIndex>2</zIndex>
+    </image>
+    <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0.05 0.09</pos>
+      <size>0.40 0.82</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.032</fontSize>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <selectedColor>1A1206</selectedColor>
+      <primaryColor>F5F0E6</primaryColor>
+      <secondaryColor>B8C0D0</secondaryColor>
+      <selectorColor>FFB454</selectorColor>
+      <selectorColorEnd>E08A2E</selectorColorEnd>
+      <scrollSound>./../sounds/scroll.wav</scrollSound>
+      <scrollbarColor>FFB454</scrollbarColor>
+      <scrollbarSize>0.006</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+      <zIndex>10</zIndex>
+    </textlist>
+    <!-- Bong do duoi khung video -->
+    <image name="videoShadow" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.305</pos>
+      <size>0.45 0.41</size>
+      <path>./../art/white.png</path>
+      <color>000000CC</color>
+      <zIndex>4</zIndex>
+    </image>
+    <!-- Anh game (nam duoi video, hien khi khong co video) -->
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.30</pos>
+      <maxSize>0.44 0.40</maxSize>
+      <roundCorners>0.018</roundCorners>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>5</zIndex>
+    </image>
+    <!-- Video game: khung bo tron -->
+    <video name="md_video">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.30</pos>
+      <maxSize>0.44 0.40</maxSize>
+      <roundCorners>0.018</roundCorners>
+      <linearSmooth>true</linearSmooth>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <zIndex>6</zIndex>
+    </video>
+    <!-- Vet sang cheo tren video -->
+    <image name="videoGlare" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.30</pos>
+      <size>0.44 0.40</size>
+      <path>./../art/glare.png</path>
+      <opacity>0.6</opacity>
+      <zIndex>7</zIndex>
+    </image>
+    <!-- Ten game -->
+    <text name="md_name">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.535</pos>
+      <size>0.44 0.05</size>
+      <fontPath>./../fonts/tektur-Bold.ttf</fontPath>
+      <fontSize>0.036</fontSize>
+      <alignment>center</alignment>
+      <singleLineScroll>true</singleLineScroll>
+      <autoScroll>horizontal</autoScroll>
+      <autoScrollDelay>0</autoScrollDelay>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- Sao danh gia -->
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <pos>0.7375 0.585</pos>
+      <size>0.20 0.04</size>
+      <zIndex>10</zIndex>
+    </rating>
+    <!-- Hang phat trien -->
+    <text name="lblDeveloper" text="Hãng:">
+      <origin>1 0.5</origin>
+      <pos>0.63 0.63</pos>
+      <size>0.11 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>right</alignment>
+      <color>B8C0D0</color>
+      <zIndex>10</zIndex>
+    </text>
+    <text name="mdDeveloper" extra="true" text="{game:developer}">
+      <origin>0 0.5</origin>
+      <pos>0.64 0.63</pos>
+      <size>0.31 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>left</alignment>
+      <singleLineScroll>true</singleLineScroll>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- The loai -->
+    <text name="lblGenre" text="Thể loại:">
+      <origin>1 0.5</origin>
+      <pos>0.63 0.665</pos>
+      <size>0.11 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>right</alignment>
+      <color>B8C0D0</color>
+      <zIndex>10</zIndex>
+    </text>
+    <text name="mdGenre" extra="true" text="{game:genre}">
+      <origin>0 0.5</origin>
+      <pos>0.64 0.665</pos>
+      <size>0.31 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>left</alignment>
+      <singleLineScroll>true</singleLineScroll>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- Ngay ra mat -->
+    <text name="lblReleased" text="Ra mắt:">
+      <origin>1 0.5</origin>
+      <pos>0.63 0.70</pos>
+      <size>0.11 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>right</alignment>
+      <color>B8C0D0</color>
+      <zIndex>10</zIndex>
+    </text>
+    <text name="mdReleased" extra="true" text="{game:released}">
+      <origin>0 0.5</origin>
+      <pos>0.64 0.70</pos>
+      <size>0.31 0.03</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <alignment>left</alignment>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </text>
+    <!-- Mo ta game -->
+    <text name="md_description">
+      <origin>0 0</origin>
+      <pos>0.52 0.735</pos>
+      <size>0.43 0.17</size>
+      <fontPath>./../fonts/inter-Regular.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+      <alignment>left</alignment>
+      <verticalAlignment>top</verticalAlignment>
+      <lineSpacing>1.4</lineSpacing>
+      <color>E8E2D2</color>
+      <zIndex>10</zIndex>
+    </text>
+  </view>
+</theme>
