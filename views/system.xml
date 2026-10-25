@@ -12,12 +12,18 @@
     </image>
     <!-- Carousel he thong: ES LUON ve carousel, neu theme khong dinh nghia
          no se dung carousel mac dinh (dai xam + ten he ke ben che mat ten
-         lon). Dinh nghia ro o day: trong suot, chi 1 logo anh (he nao khong
-         co logo anh thi carousel khong ve gi, ten do logoText dam nhan). -->
+         lon). Dinh nghia ro o day: trong suot, chi 1 logo anh.
+         QUAN TRONG (loi thay o v0.1.1 tren Brick): ngoai logoText cua view,
+         ES con tu ve them ten he theo vi tri/kich thuoc cua CHINH carousel
+         (chu xam, nam giua man hinh, hien ca trong menu) — theme nao cung
+         bi, knulli "giau" no bang cach dat logoText TRUNG vi tri carousel
+         (0.5 0.5) va zIndex cao hon. O day hero dat o 0.40 nen carousel
+         phai dat TRUNG hero (pos/size giong logoText, zIndex thap hon) de
+         chu thua chui sau lung hero, khong lo ra ngoai. -->
     <carousel name="systemcarousel">
       <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <size>1 1</size>
+      <pos>0.5 0.40</pos>
+      <size>0.94 0.34</size>
       <color>00000000</color>
       <scrollSound>./../sounds/scroll.wav</scrollSound>
       <logoSize>0.90 0.70</logoSize>
