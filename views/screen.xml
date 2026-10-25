@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- View "screen": lop phu hien tren MOI man hinh (system, basic,
+       detailed, grid, menu). Goc tren trai = gio, goc tren phai = % pin +
+       icon pin + icon mang. Theo mau batteryIndicator cua theme knulli. -->
+  <view name="screen">
+    <!-- Gio hien tai -->
+    <clock name="system-clock">
+      <origin>0 0.5</origin>
+      <pos>0.02 0.022</pos>
+      <fontPath>./../fonts/inter-Bold.ttf</fontPath>
+      <fontSize>0.028</fontSize>
+      <color>F5F0E6</color>
+      <zIndex>10</zIndex>
+    </clock>
+    <!-- Cum pin + mang, can phai (reverse: phan tu dau tien nam ben phai
+         nhat, tu phai sang trai la % pin, icon pin, icon mang) -->
+    <stackpanel name="batteryStack" extra="true"
+                orientation="horizontal" separator="2" reverse="true"
+                size="0.30 0.045" pos="0.68 0">
+      <batteryText name="batteryText">
+        <fontPath>./../fonts/inter-Bold.ttf</fontPath>
+        <color>F5F0E6</color>
+        <fontSize>0.028</fontSize>
+      </batteryText>
+      <text name="sep1" text="  ">
+        <fontPath>./../fonts/inter-Bold.ttf</fontPath>
+        <fontSize>0.017</fontSize>
+        <color>F5F0E6</color>
+      </text>
+      <batteryIcon name="batteryIcon"
+                   incharge="./../art/icons/batt-charge.png"
+                   full="./../art/icons/batt-full.png"
+                   at75="./../art/icons/batt-75.png"
+                   at50="./../art/icons/batt-50.png"
+                   at25="./../art/icons/batt-25.png"
+                   empty="./../art/icons/batt-empty.png"
+                   planemodeIcon="./../art/icons/planemode.png"
+                   maxSize="1 1"
+                   linearSmooth="true"
+                   color="F5F0E6" />
+      <text name="sep2" text="  ">
+        <fontPath>./../fonts/inter-Bold.ttf</fontPath>
+        <fontSize>0.017</fontSize>
+        <color>F5F0E6</color>
+      </text>
+      <networkIcon name="networkIcon"
+                   networkIcon="./../art/icons/network.png"
+                   planemodeIcon="./../art/icons/planemode.png"
+                   maxSize="1 1"
+                   linearSmooth="true"
+                   color="F5F0E6" />
+    </stackpanel>
+  </view>
+</theme>

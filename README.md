@@ -27,4 +27,11 @@ EmulationStation → UI Settings → Theme Set → chọn MUSE-AI.
 
 ## Phiên bản
 
+- v0.1.1: định nghĩa carousel hệ thống đúng chuẩn (hết dải xám mặc định
+  của ES); màn system mỗi hệ có ảnh chìm riêng (16 hệ: fbneo, nes, psx,
+  psp, snes, gba, gbc, gb, c64, ports, megadrive, nds, pcengine, atari2600,
+  dreamcast, n64); thanh trạng thái trên mọi màn hình: giờ, % pin + icon
+  pin, icon mạng. Lưu ý: ES không có phần tử theme hiển thị ngày tháng,
+  và không đọc được trạng thái dịch vụ SSH/Tailscale nên theme không thể
+  hiện 2 biểu tượng đó — xem trạng thái dịch vụ trong menu Knulli.
 - v0.1.0: system, basic, detailed, grid, menu, help, splash.

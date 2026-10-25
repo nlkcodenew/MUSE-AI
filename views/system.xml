@@ -10,8 +10,25 @@
       <path>./../art/background.png</path>
       <zIndex>1</zIndex>
     </image>
-    <!-- Ten he may KHONG LO: chu Tektur, phat sang ho phach, phan chieu 3D -->
+    <!-- Carousel he thong: ES LUON ve carousel, neu theme khong dinh nghia
+         no se dung carousel mac dinh (dai xam + ten he ke ben che mat ten
+         lon). Dinh nghia ro o day: trong suot, chi 1 logo anh (he nao khong
+         co logo anh thi carousel khong ve gi, ten do logoText dam nhan). -->
+    <carousel name="systemcarousel">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <size>1 1</size>
+      <color>00000000</color>
+      <scrollSound>./../sounds/scroll.wav</scrollSound>
+      <logoSize>0.90 0.70</logoSize>
+      <maxLogoCount>1</maxLogoCount>
+      <logoScale>1</logoScale>
+      <zIndex>5</zIndex>
+    </carousel>
+    <!-- Ten he may KHONG LO: chu Tektur, phat sang ho phach, phan chieu 3D.
+         Chi hien khi he khong co logo anh (neu co logo thi carousel ve logo). -->
     <text name="logoText">
+      <visible>!exists({system:image})</visible>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.40</pos>
       <size>0.94 0.34</size>
